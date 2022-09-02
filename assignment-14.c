@@ -132,8 +132,57 @@
 
 
 // 7. Write a program to find second largest in an array.Take array values from the user.
+
+
+// #include<stdio.h>
+// int main(){
+//     int arr[10],max=0,smax=0,i;
+//     printf("Enter 10 element : ");
+//     for ( i = 0; i < 10; i++)
+//     {
+//         scanf("%d",&arr[i]);
+//         if(arr[i]>max){
+//             smax=max;
+//             max=arr[i];
+//         }
+//         else if (arr[i]>smax && arr[i]!=max)
+//         {
+//             smax=arr[i];
+//         }       
+//     }
+//     printf("Maximum element in array: %d\n",max);
+//     printf("Second Maximum element in array: %d",smax);
+
+//     return 0; 
+// }
+
 // 8. Write a program to find the second smallest number in an array.Take array values
 // from the user.
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int arr[10],max=65332,smax=6533,i;
+//     printf("Enter 10 element : ");
+//     for ( i = 0; i < 10; i++)
+//     {
+//         scanf("%d",&arr[i]);
+//         if(arr[i]<max){
+//             smax=max;
+//             max=arr[i];
+//         }
+//         else if (arr[i]<smax && arr[i]!=max)
+//         {
+//             smax=arr[i];
+//         }       
+//     }
+//     printf("minimum element in array: %d\n",max);
+//     printf("Second Minimum element in array: %d",smax);
+
+//     return 0; 
+// }
+
 
 // 9. Write a program in C to read n number of values in an array and display it in reverse
 // order. Take array values from the user.
